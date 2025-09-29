@@ -1,0 +1,33 @@
+## Frequently used SQL clauses (for in-depth learning)
+
+| SQL-Klausel         | Bedeutung / Wann verwenden?                                                                 |
+|---------------------|--------------------------------------------------------------------------------------------|
+| **SELECT**          | Wählt Spalten aus einer Tabelle aus (Was will ich sehen?).                                 |
+| **SELECT DISTINCT** | Gibt nur unterschiedliche Werte einer Spalte zurück (Duplikate entfernen).                 |
+| **FROM**            | Gibt an, aus welcher Tabelle die Daten stammen (Woher?).                                   |
+| **WHERE**           | Filtert Zeilen nach bestimmten Bedingungen (Welche Zeilen?).                               |
+| **AND**             | Verknüpft mehrere Bedingungen in WHERE (Mehrere Bedingungen müssen erfüllt sein).          |
+| **LIKE**            | Sucht nach einem Muster in Textspalten (z.B. WHERE Name LIKE 'A%').                       |
+| **GROUP BY**        | Gruppiert Zeilen mit gleichen Werten (z.B. für Aggregatfunktionen wie COUNT, SUM).         |
+| **HAVING**          | Filtert Gruppen nach GROUP BY (ähnlich wie WHERE, aber für Gruppen).                       |
+| **ORDER BY**        | Sortiert die Ergebnistabelle nach einer oder mehreren Spalten.                             |
+| **FULL JOIN**       | Verknüpft zwei Tabellen und gibt alle Zeilen aus beiden Tabellen zurück.                   |
+| **INNER JOIN**      | Verknüpft zwei Tabellen und gibt nur übereinstimmende Zeilen zurück.                       |
+| **LEFT JOIN**       | Gibt alle Zeilen der linken Tabelle und passende der rechten Tabelle zurück.               |
+| **RIGHT JOIN**      | Gibt alle Zeilen der rechten Tabelle und passende der linken Tabelle zurück.               |
+| **ON**              | Gibt die Verknüpfungsbedingung für JOINs an.                                               |
+| **LIMIT**           | Begrenzung der Anzahl der zurückgegebenen Zeilen.                                          |
+| **AS**              | Gibt einer Spalte oder Tabelle einen Aliasnamen (z.B. SELECT Name AS Vorname).             |
+| **AVG**             | Berechnet den Durchschnittswert einer Spalte.                                              |
+| **COUNT**           | Zählt die Anzahl der Zeilen oder Werte.                                                    |
+| **MIN**             | Gibt den kleinsten Wert einer Spalte zurück.                                               |
+| **MAX**             | Gibt den größten Wert einer Spalte zurück.                                                 |
+| **SUM**             | Summiert Werte einer Spalte.                                                               |
+| **BETWEEN**         | Prüft, ob ein Wert in einem Bereich liegt (z.B. WHERE Preis BETWEEN 10 AND 20).            |
+| **IN**              | Prüft, ob ein Wert in einer Liste von Werten enthalten ist (z.B. WHERE Land IN (...)).     |
+| **IS NULL**         | Prüft, ob ein Wert NULL ist.                                                               |
+| **IS NOT NULL**     | Prüft, ob ein Wert nicht NULL ist.                                                         |
+| **ROUND**           | Rundet numerische Werte (z.B. ROUND(Preis, 2)).                                            |
+| **CAST**            | Wandelt einen Wert in einen anderen Datentyp um (z.B. CAST(Preis AS INTEGER)).             |
+| **NUMERIC**         | Datentyp für Zahlen mit Nachkommastellen.                                                  |
+| **INTEGER**         | Datentyp für ganze Zahlen.                                                                 |
